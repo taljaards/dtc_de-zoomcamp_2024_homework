@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dtc-de-zoomcamp-2024-homework"
+version = "0.1.0"
+description = ""
+authors = ["Stéphan Taljaard <steptaljaard@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+jupyter = "^1.0.0"
+dlt = {extras = ["duckdb"], version = "^0.4.4"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
